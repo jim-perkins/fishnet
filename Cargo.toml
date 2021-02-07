@@ -43,3 +43,6 @@ raw-cpuid = "9"
 
 [build-dependencies]
 auditable-build = "0.1"
+
+[target.'cfg(windows)'.build-dependencies]
+winres = "0.1"
